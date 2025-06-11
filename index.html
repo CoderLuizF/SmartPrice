@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SmartPrice</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <main class="container">
+      <h1>SmartPrice</h1>
+      <form class="search-form">
+        <input
+          type="text"
+          placeholder="Digite o nome do Produto"
+          class="product-input"
+        />
+        <button class="search-btn">Buscar</button>
+      </form>
+      <div class="product-list"></div>
+      <canvas class="price-chart"></canvas>
+    </main>
+  </body>
 </html>
